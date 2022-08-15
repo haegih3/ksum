@@ -49,6 +49,9 @@ h1 img {
     line-height: 1;
     letter-spacing: 0;
 }
+.tnb li:not(:last-child) a:hover {
+    color: var(--main);
+}
 .btn_col_round {
     padding: 1px 9px 0px !important;
     background-color: var(--main) !important;
@@ -88,6 +91,20 @@ h1 img {
     vertical-align: middle;
     letter-spacing: -1.25px;
 }
+.gnb li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: var(--main);
+    transition: all .3s;
+}
+.gnb li a:hover {
+    color: var(--main);
+}
+.gnb li a:hover::after {
+    width: 100%;
+}
 .gnb.on {display: block;}
 
 
@@ -125,6 +142,9 @@ h5 {
     right: 30px;
     font-size: 3.5rem;
     color: var(--gray-400)
+}
+.btn_more a:hover {
+    filter: invert(1);
 }
 
 /* about */
@@ -205,6 +225,10 @@ h5 {
     display: block;
     color: var(--gray-600);
     letter-spacing: -1px;
+}
+.noice li a:hover {
+    color: var(--main);
+    background: linear-gradient(to bottom, transparent 40%, #00709214 41%, #00709214 80%, transparent 81%);
 }
 
 /* events */
@@ -385,6 +409,22 @@ h5 {
     transform: translateY(70%);
     font-weight: bold;
     color: var(--gray-300);
+    transition: all 0.5s;
+}
+.magazine ul li a:hover {
+    color: var(--main);
+}
+.magazine ul li a:hover i {
+    animation: bounce .8s infinite linear;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        right: 0;
+    }
+    55% {
+        right: 20px;
+    }
 }
 
 /* quick_menu */
@@ -431,6 +471,10 @@ h5 {
 .quick_menu li a {
     display: block;
     height: 104px;
+}
+.quick_menu li a:hover {
+    transform: translate(1px, -1px);
+    text-shadow: 0 0 10px var(--black);
 }
 
 /* partners */
@@ -638,6 +682,26 @@ footer p {
 
 /* size - under tablet */
 @media screen and (max-width:768px) {
+    /* hover reset */
+    .tnb li:not(:last-child) a:hover, .gnb li a:hover, .magazine ul li a:hover {
+        color: inherit;
+    }
+    .noice li a:hover {
+        color: inherit;
+        background: none;
+    }
+    .btn_more a:hover {
+        filter: none;
+    }
+    .magazine ul li a:hover i {
+        animation: none;
+    }
+    .quick_menu li a:hover {
+        transform: none;
+        text-shadow: none;
+    }
+
+    
     body {
         font-size: var(--mobile-font-size);
     }
