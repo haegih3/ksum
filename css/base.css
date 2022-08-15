@@ -1,0 +1,189 @@
+@charset "utf-8";
+@import url('font.css');
+@import url('common.css');
+
+
+/* basic */
+html {
+    font-size: 10px;
+}
+
+body,
+html {
+    scroll-behavior: smooth;
+    background-color: var(--body-bg);
+    font-family: var(--font-nanum-gothic);
+    font-weight: var(--body-font-weight);
+    line-height: var(--body-line-height);
+    letter-spacing: var(--body-letter-spacing);
+    color: var(--black);
+    word-break: keep-all;
+    -webkit-text-size-adjust: none;
+    /*Chrome, Safari, newer versions of Opera*/
+    -moz-text-size-adjust: none;
+    /*Firefox*/
+    -ms-text-size-adjust: none;
+    /*Ie*/
+    -o-text-size-adjust: none;
+    /*old versions of Opera*/
+}
+
+body {
+    font-size: var(--body-font-size);
+}
+
+.inner {
+    margin: 0 auto;
+    width: calc(100% - 20px);
+    max-width: 1100px;
+}
+
+.inner2 {
+    width: 88%;
+    margin: 0 auto;
+}
+
+/*상단 50*/
+.inner_h {
+    padding: 45px 0 55px;
+}
+
+.inner_box {
+    padding-top: 45px;
+}
+
+.inner_box3 {
+    padding-top: 80px;
+}
+
+/*하단 50*/
+.inner_box1 {
+    padding-bottom: 60px;
+}
+
+.inner_box2 {
+    padding-bottom: 80px;
+}
+
+.inner_box2_ {
+    padding-bottom: 100px;
+}
+
+.inner_box4 {
+    padding-bottom: 150px;
+}
+
+
+/* input */
+input:checked[type=checkbox] {
+    background-color: #666;
+    /* -webkit-appearance: checkbox */
+}
+
+/*placeholder*/
+input::-ms-input-placeholder {
+    font-weight: 400;
+    color: #c2c2c2;
+    font-size: var(--body-font-size);
+}
+
+input::-webkit-input-placeholder {
+    font-weight: 400;
+    color: #c2c2c2;
+    font-size: var(--body-font-size);
+}
+
+input::-moz-placeholder {
+    font-weight: 400;
+    color: #c2c2c2;
+    font-size: var(--body-font-size);
+}
+
+input::-o-placeholder {
+    font-weight: 400;
+    color: #c2c2c2;
+    font-size: var(--body-font-size);
+}
+
+textarea::-o-placeholder {
+    font-weight: 400;
+    color: #aaa;
+    font-size: var(--body-font-size);
+}
+
+textarea::-ms-input-placeholder {
+    font-weight: 400;
+    color: #aaa;
+    font-size: var(--body-font-size);
+}
+
+textarea::-webkit-input-placeholder {
+    font-weight: 400;
+    color: #aaa;
+    font-size: var(--body-font-size);
+}
+
+textarea::-moz-placeholder {
+    font-weight: 400;
+    color: #aaa;
+    font-size: var(--body-font-size);
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+    /* WebKit browsers */
+    font-weight: 400;
+    color: #aaa;
+    font-size: var(--body-font-size);
+}
+
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-weight: 400;
+    color: #aaa;
+    font-size: var(--body-font-size);
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-weight: 400;
+    color: #aaa;
+    font-size: var(--body-font-size);
+}
+
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    font-weight: 400;
+    color: #aaa;
+    font-size: var(--body-font-size);
+}
+/*input[type="text"]::placeholder{font-size: 1.7rem;position: absolute;bottom:0;}*/
+
+
+/*select*/
+select {
+    font-family: var(--font-noto-sans);
+    font-size: 1.9rem;
+    background-image: url(img/icon/arrow_down.png);
+    background-repeat: no-repeat;
+    background-position: 93% 50%;
+    background-size: 15px;
+    background-color: #fff;
+}
+/* select option{text-align: center;} */
+
+/* 대소문자 */
+.casecpt {
+    text-transform: capitalize;
+}
+
+.caseup {
+    text-transform: uppercase;
+}
+
+.caselow {
+    text-transform: lowercase;
+}

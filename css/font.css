@@ -1,0 +1,149 @@
+/* font */
+/* 
+    eot는 ie브라우저 사용이 있을 때만 추가
+*/
+
+/* noto-sans-kr */
+@font-face {
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 100;
+    src: url(../fonts/NotoSansKR-Thin-100.woff) format("woff"),
+         url(../fonts/NotoSansKR-Thin-100.woff2) format("woff2"),
+         url(../fonts/NotoSansKR-Thin-100.otf) format("opentype");
+    unicode-range: U+ac00-d7a3;
+}
+
+@font-face {
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/NotoSansKR-Light-300.woff) format("woff"),
+         url(../fonts/NotoSansKR-Light-300.woff2) format("woff2"),
+         url(../fonts/NotoSansKR-Light-300.otf) format("opentype");
+    unicode-range: U+ac00-d7a3;
+}
+
+@font-face {
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/NotoSansKR-Regular-400.woff) format("woff"),
+         url(../fonts/NotoSansKR-Regular-400.woff2) format("woff2"),
+         url(../fonts/NotoSansKR-Regular-400.otf) format("opentype");
+    unicode-range: U+ac00-d7a3;
+}
+
+@font-face {
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/NotoSansKR-Medium-500.woff) format("woff"),
+         url(../fonts/NotoSansKR-Medium-500.woff2) format("woff2"),
+         url(../fonts/NotoSansKR-Medium-500.otf) format("opentype");
+    unicode-range: U+ac00-d7a3;
+}
+
+@font-face {
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/NotoSansKR-Bold-700.woff) format("woff"),
+         url(../fonts/NotoSansKR-Bold-700.woff2) format("woff2"),
+         url(../fonts/NotoSansKR-Bold-700.otf) format("opentype");
+    unicode-range: U+ac00-d7a3;
+}
+
+@font-face {
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/NotoSansKR-Black-900.woff) format("woff"),
+         url(../fonts/NotoSansKR-Black-900.woff2) format("woff2"),
+         url(../fonts/NotoSansKR-Black-900.otf) format("opentype");
+    unicode-range: U+ac00-d7a3;
+}
+
+
+/* NanumGothic */
+@font-face {
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/NanumGothicL.woff) format("woff"),
+         url(../fonts/NanumGothicL.woff2) format("woff2"),
+         url(../fonts/NanumGothicL.otf) format("opentype");
+    unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/NanumGothic.woff) format("woff"),
+         url(../fonts/NanumGothic.woff2) format("woff2"),
+         url(../fonts/NanumGothic.otf) format("opentype");
+    unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/NanumGothicB.woff) format("woff"),
+         url(../fonts/NanumGothicB.woff2) format("woff2"),
+         url(../fonts/NanumGothicB.otf) format("opentype");
+    unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/NanumGothicEB.woff) format("woff"),
+         url(../fonts/NanumGothicEB.woff2) format("woff2"),
+         url(../fonts/NanumGothicEB.otf) format("opentype");
+    unicode-range: U+0-10FFFF;
+}
+
+
+/* NanumSquare */
+@font-face {
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/NanumSquareL.woff) format("woff"),
+         url(../fonts/NanumSquareL.woff2) format("woff2"),
+         url(../fonts/NanumSquareL.otf) format("opentype");
+    unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/NanumSquareR.woff) format("woff"),
+         url(../fonts/NanumSquareR.woff2) format("woff2"),
+         url(../fonts/NanumSquareR.otf) format("opentype");
+    unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/NanumSquareB.woff) format("woff"),
+         url(../fonts/NanumSquareB.woff2) format("woff2"),
+         url(../fonts/NanumSquareB.otf) format("opentype");
+    unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/NanumSquareEB.woff) format("woff"),
+         url(../fonts/NanumSquareEB.woff2) format("woff2"),
+         url(../fonts/NanumSquareEB.otf) format("opentype");
+    unicode-range: U+0-10FFFF;
+}
